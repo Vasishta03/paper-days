@@ -135,7 +135,7 @@ export default function Calendar() {
 
   const notesLabel =
     range.start && range.end
-      ? `${fmt(range.start, 'MMM d')} — ${fmt(range.end, 'MMM d')}`
+      ? `${fmt(range.start, 'MMM d')} to ${fmt(range.end, 'MMM d')}`
       : fmt(cur, 'MMMM yyyy')
 
   return (
@@ -182,7 +182,7 @@ export default function Calendar() {
             <div className="range-pill">
               <span>
                 {range.end
-                  ? `${fmt(range.start, 'MMM d')} — ${fmt(range.end, 'MMM d')}`
+                  ? `${fmt(range.start, 'MMM d')} to ${fmt(range.end, 'MMM d')}`
                   : `from ${fmt(range.start, 'MMM d')}…`}
               </span>
               <button className="clear-btn" onClick={clearRange}>×</button>

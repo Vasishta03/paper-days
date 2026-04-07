@@ -4,18 +4,18 @@ an interactive wall calendar built for a frontend engineering challenge.
 
 ## design choices
 
-- **aesthetic**: editorial minimalism — cream paper, charcoal ink, rust-red accents. same type stack as vasishta.tech (Cormorant Garamond + Bebas Neue + DM Mono).
+- **aesthetic**: editorial minimalism - cream paper, charcoal ink, rust-red accents. same type stack as vasishta.tech (Cormorant Garamond + Bebas Neue + DM Mono).
 - **layout**: spiral-bound wall calendar with full-bleed hero image per month, split panel for the month/notes on the left and date grid on the right.
-- **state**: no backend — notes persist via `localStorage`, keyed per month or per selected date range.
+- **state**: no backend - notes persist via `localStorage`, keyed per month or per selected date range.
 
 ## features
 
 - month navigation with a smooth page-flip transition
-- date range selection — click start, hover to preview, click to confirm end
+- date range selection - click start, hover to preview, click to confirm end
 - notes per selection (month note or range note), persisted across sessions
 - holiday markers for common US holidays
 - today underlined for quick reference
-- fully responsive — stacked layout on mobile
+- fully responsive - stacked layout on mobile
 
 ## run locally
 
