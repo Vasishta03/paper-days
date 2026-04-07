@@ -24,4 +24,6 @@ npm install
 npm run dev
 ```
 
-open [http://localhost:3000](http://localhost:3000)
+
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/94dec337-e959-4295-aa09-7fc104f938fb" />
+
